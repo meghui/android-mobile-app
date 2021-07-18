@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainActivity"
+        android:title="@string/mainActivity"
+        android:visible="false" />
+    <item
+        android:id="@+id/secondActivity"
+        android:title="@string/secondActivity"
+        android:visible="false" />
+    <item
+        android:id="@+id/thirdActivity"
+        android:title="@string/thirdActivity"
+        android:visible="false" />
+    <item
+        android:id="@+id/fourthActivity"
+        android:title="@string/fourthActivity"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/fifthActivity"
+        android:title="@string/fifthActivity"
+        />
+    <item
+        android:id="@+id/sixthActivity"
+        android:title="@string/sixthActivity" />
+    <item
+        android:id="@+id/seventhActivity"
+        android:title="@string/seventhActivity"
+        />
+
+</menu>

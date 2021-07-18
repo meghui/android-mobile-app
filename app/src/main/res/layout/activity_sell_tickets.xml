@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SellTicketsActivity">
+
+
+    <TextView
+        android:id="@+id/fifthActivity"
+        android:layout_width="360dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:text="@string/fifthActivity"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/lblPrice"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/lblPrice"
+        app:layout_constraintBottom_toTopOf="@+id/lblTicketNum"
+        app:layout_constraintEnd_toStartOf="@+id/editPrice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fifthActivity" />
+
+    <EditText
+        android:id="@+id/editPrice"
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="number"
+        android:text="$2"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/tktNum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lblPrice"
+        app:layout_constraintTop_toBottomOf="@+id/fifthActivity" />
+
+    <TextView
+        android:id="@+id/lblTicketNum"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center|center_horizontal"
+        android:text="# of Ticket"
+        app:layout_constraintBottom_toTopOf="@+id/lblRaffleName"
+        app:layout_constraintEnd_toStartOf="@+id/tktNum"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblPrice" />
+
+    <!--TextView
+        android:id="@+id/lblTicketDate"
+        android:layout_width="118dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="300dp"
+        android:ems="10"
+        android:text="@string/lblTicketDate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblAddress" />
+
+    <TextView
+        android:id="@+id/lblTicketTime"
+        android:layout_width="115dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:text="@string/lblTicketTime"
+        app:layout_constraintBottom_toTopOf="@+id/lblTicketNum"
+        app:layout_constraintEnd_toEndOf="@+id/lblTicketNum"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblPrice" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="214dp"
+        android:layout_height="97dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.817"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/lblTicketDate"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTime"
+        android:layout_width="211dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tktNum"
+        app:layout_constraintTop_toTopOf="@+id/lblTicketTime" /-->
+
+
+    <EditText
+        android:id="@+id/tktNum"
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:inputType="number"
+        android:numeric="integer"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/raffleName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lblTicketNum"
+        app:layout_constraintTop_toBottomOf="@+id/editPrice" />
+
+    <TextView
+        android:id="@+id/lblCusName"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center|center_horizontal"
+        android:text="@string/lblBuyerName"
+        app:layout_constraintBottom_toTopOf="@+id/lblAddress"
+        app:layout_constraintEnd_toStartOf="@+id/cusName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblRaffleName" />
+
+    <EditText
+        android:id="@+id/cusName"
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:gravity="left"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPostalAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lblCusName"
+        app:layout_constraintTop_toBottomOf="@+id/raffleName" />
+
+    <TextView
+        android:id="@+id/lblAddress"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center|center_horizontal"
+        android:text="@string/lblAddress"
+        app:layout_constraintBottom_toTopOf="@+id/buttonTkt"
+        app:layout_constraintEnd_toStartOf="@+id/editTextPostalAddress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblCusName" />
+
+    <EditText
+        android:id="@+id/editTextPostalAddress"
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonTkt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lblAddress"
+        app:layout_constraintTop_toBottomOf="@+id/cusName" />
+
+    <TextView
+        android:id="@+id/lblRaffleName"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center|center_horizontal"
+        android:text="@string/lblRaffleName"
+        app:layout_constraintBottom_toTopOf="@+id/lblCusName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblTicketNum" />
+
+    <Button
+        android:id="@+id/buttonTkt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/fifthActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblAddress" />
+
+    <TextView
+        android:id="@+id/raffleName"
+        android:layout_width="176dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="left|center_vertical"
+        app:layout_constraintBottom_toTopOf="@+id/cusName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toEndOf="@+id/lblRaffleName"
+        app:layout_constraintTop_toBottomOf="@+id/tktNum"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

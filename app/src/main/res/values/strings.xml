@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Raffle Portal</string>
+    <string name="lblAddress">Address</string>
+    <string name="lblBuyerName">Buyer Name</string>
+    <string name="lblTicketNum">Ticket Number</string>
+    <string name="lblTicketTime">Ticket Purchased Time</string>
+    <string name="lblTicketDate">Ticket Purchased Date</string>
+    <string name="lblPrice">Price</string>
+    <string name="lblRaffleName">Raffle Name</string>
+    <string name="lblRaffleDescription">Raffle Description</string>
+    <string name="lblRaffleID">Raffle ID</string>
+    <string name="mainActivity">List All Raffles</string>
+    <string name="secondActivity">Edit Ticket Info</string>
+    <string name="thirdActivity">Edit Raffle Settings</string>
+    <string name="fourthActivity">Create a Raffle</string>
+    <string name="fifthActivity">Sell tickets to a Raffle</string>
+    <string name="sixthActivity">Draw a random Raffle </string>
+    <string name="seventhActivity">List Tickets by Raffle</string>
+
+    <string-array name="dropdownItems">
+        <item>List All Raffles</item>
+        <item>Edit Ticket Info</item>
+        <item>List All Tickets by Raffle</item>
+        <item>Create A Raffle</item>
+        <item>Sell Tickets to A Raffle</item>
+        <item>Draw at Random</item>
+        <item>Edit Raffle Settings</item>
+    </string-array>
+
+    <string name="title_activity_raffle_details">RaffleDetailsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="no_winner_yet">No Winner Yet</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/listTktByRaffleActivity"
+        android:title="@string/seventhActivity" />
+    <item
+        android:id="@+id/mainActivity"
+        android:title="@string/mainActivity"
+        android:visible="false" />
+    <item
+        android:id="@+id/editTktInfoActivity"
+        android:title="@string/secondActivity"
+        android:visible="false" />
+    <item
+        android:id="@+id/editRaffleActivity"
+        android:title="@string/thirdActivity"
+        android:visible="false" />
+    <item
+        android:id="@+id/createRaffleActivity"
+        android:title="@string/fourthActivity" />
+
+    <item
+        android:id="@+id/sellTktActivity"
+        android:title="@string/fifthActivity"
+        android:visible="false" />
+    <item
+        android:id="@+id/drawRandomRaffleActivity"
+        android:title="@string/sixthActivity"
+        android:visible="false" />
+
+
+</menu>
