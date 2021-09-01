@@ -1,4 +1,4 @@
-# androidapp
+# AndroidJavaMobileApp
 
 It is my first android app. It uses Java, SQLite and XML. The IDE is Android Studio.
 
